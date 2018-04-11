@@ -7,4 +7,8 @@ export class LazyService {
        
     }
 
+    firstMethod(): void{
+        console.log("asdasasdasd");
+    }
+
 }

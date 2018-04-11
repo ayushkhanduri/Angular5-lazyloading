@@ -21,7 +21,6 @@ console.log(someVar);
 
 export class AppComponent {
   constructor(private service: SampleService) {
-    alert(this.service.isLoggedIn);
   }
 }
 
